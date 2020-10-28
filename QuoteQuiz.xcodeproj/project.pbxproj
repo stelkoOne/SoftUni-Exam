@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7956E4A8254893E900EB57EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956E4A7254893E900EB57EC /* AppDelegate.swift */; };
 		7956E4AA254893E900EB57EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956E4A9254893E900EB57EC /* SceneDelegate.swift */; };
-		7956E4AC254893E900EB57EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956E4AB254893E900EB57EC /* ViewController.swift */; };
-		7956E4AF254893E900EB57EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956E4AD254893E900EB57EC /* Main.storyboard */; };
+		7956E4AC254893E900EB57EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956E4AB254893E900EB57EC /* LoginViewController.swift */; };
+		7956E4AF254893E900EB57EC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956E4AD254893E900EB57EC /* Login.storyboard */; };
 		7956E4B1254893EA00EB57EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7956E4B0254893EA00EB57EC /* Assets.xcassets */; };
 		7956E4B4254893EA00EB57EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956E4B2254893EA00EB57EC /* LaunchScreen.storyboard */; };
+		798B3E31254896A30092D2F2 /* CALayer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B3E30254896A30092D2F2 /* CALayer+Helpers.swift */; };
+		798B3E342549F1960092D2F2 /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B3E332549F1960092D2F2 /* UIColor+Helpers.swift */; };
+		798B3E372549F1B70092D2F2 /* Int+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B3E362549F1B70092D2F2 /* Int+Helpers.swift */; };
+		798B3E3A2549F2100092D2F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B3E392549F2100092D2F2 /* Constants.swift */; };
+		798B3E3D2549F2310092D2F2 /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B3E3C2549F2310092D2F2 /* String+Helpers.swift */; };
+		79C661FF254A26E4000456E5 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C661FE254A26E4000456E5 /* TextField.swift */; };
+		B46CE166879CB508D88DC02D /* Pods_QuoteQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8AE610868DCC621ED0B35 /* Pods_QuoteQuiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FA8AE610868DCC621ED0B35 /* Pods_QuoteQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuoteQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7956E4A4254893E900EB57EC /* QuoteQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7956E4A7254893E900EB57EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7956E4A9254893E900EB57EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7956E4AB254893E900EB57EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7956E4AE254893E900EB57EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7956E4AB254893E900EB57EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7956E4AE254893E900EB57EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		7956E4B0254893EA00EB57EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7956E4B3254893EA00EB57EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7956E4B5254893EA00EB57EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798B3E30254896A30092D2F2 /* CALayer+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Helpers.swift"; sourceTree = "<group>"; };
+		798B3E332549F1960092D2F2 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		798B3E362549F1B70092D2F2 /* Int+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Helpers.swift"; sourceTree = "<group>"; };
+		798B3E392549F2100092D2F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		798B3E3C2549F2310092D2F2 /* String+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
+		79C661FE254A26E4000456E5 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		847AB4FE76A1E0DD3024913E /* Pods-QuoteQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuoteQuiz.release.xcconfig"; path = "Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		A6C2AAF24F92D3986B73BDE6 /* Pods-QuoteQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuoteQuiz.debug.xcconfig"; path = "Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46CE166879CB508D88DC02D /* Pods_QuoteQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				7956E4A6254893E900EB57EC /* QuoteQuiz */,
 				7956E4A5254893E900EB57EC /* Products */,
+				C76D8A9523C99DD51E2290B0 /* Pods */,
+				E4F16153AD063C55AFC6FAB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,86 @@
 		7956E4A6254893E900EB57EC /* QuoteQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				7956E4A7254893E900EB57EC /* AppDelegate.swift */,
-				7956E4A9254893E900EB57EC /* SceneDelegate.swift */,
-				7956E4AB254893E900EB57EC /* ViewController.swift */,
-				7956E4AD254893E900EB57EC /* Main.storyboard */,
+				79C661FD254A26D6000456E5 /* Views */,
+				798B3E2F2548968B0092D2F2 /* Extensions */,
+				798B3E22254894A80092D2F2 /* Controllers */,
+				798B3E202548948C0092D2F2 /* Global */,
+				798B3E23254894F40092D2F2 /* Managers */,
+				798B3E212548949C0092D2F2 /* UI */,
 				7956E4B0254893EA00EB57EC /* Assets.xcassets */,
-				7956E4B2254893EA00EB57EC /* LaunchScreen.storyboard */,
 				7956E4B5254893EA00EB57EC /* Info.plist */,
 			);
 			path = QuoteQuiz;
+			sourceTree = "<group>";
+		};
+		798B3E202548948C0092D2F2 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				7956E4A7254893E900EB57EC /* AppDelegate.swift */,
+				7956E4A9254893E900EB57EC /* SceneDelegate.swift */,
+				798B3E392549F2100092D2F2 /* Constants.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		798B3E212548949C0092D2F2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7956E4AD254893E900EB57EC /* Login.storyboard */,
+				7956E4B2254893EA00EB57EC /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		798B3E22254894A80092D2F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7956E4AB254893E900EB57EC /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		798B3E23254894F40092D2F2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		798B3E2F2548968B0092D2F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				798B3E30254896A30092D2F2 /* CALayer+Helpers.swift */,
+				798B3E332549F1960092D2F2 /* UIColor+Helpers.swift */,
+				798B3E362549F1B70092D2F2 /* Int+Helpers.swift */,
+				798B3E3C2549F2310092D2F2 /* String+Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		79C661FD254A26D6000456E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79C661FE254A26E4000456E5 /* TextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C76D8A9523C99DD51E2290B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2AAF24F92D3986B73BDE6 /* Pods-QuoteQuiz.debug.xcconfig */,
+				847AB4FE76A1E0DD3024913E /* Pods-QuoteQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4F16153AD063C55AFC6FAB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FA8AE610868DCC621ED0B35 /* Pods_QuoteQuiz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7956E4B8254893EA00EB57EC /* Build configuration list for PBXNativeTarget "QuoteQuiz" */;
 			buildPhases = (
+				CE694381B22292E242D8D8F2 /* [CP] Check Pods Manifest.lock */,
 				7956E4A0254893E900EB57EC /* Sources */,
 				7956E4A1254893E900EB57EC /* Frameworks */,
 				7956E4A2254893E900EB57EC /* Resources */,
+				4FF4902E4A8A4C9AD222D354 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,32 +218,80 @@
 			files = (
 				7956E4B4254893EA00EB57EC /* LaunchScreen.storyboard in Resources */,
 				7956E4B1254893EA00EB57EC /* Assets.xcassets in Resources */,
-				7956E4AF254893E900EB57EC /* Main.storyboard in Resources */,
+				7956E4AF254893E900EB57EC /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FF4902E4A8A4C9AD222D354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE694381B22292E242D8D8F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuoteQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7956E4A0254893E900EB57EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7956E4AC254893E900EB57EC /* ViewController.swift in Sources */,
+				7956E4AC254893E900EB57EC /* LoginViewController.swift in Sources */,
+				798B3E342549F1960092D2F2 /* UIColor+Helpers.swift in Sources */,
 				7956E4A8254893E900EB57EC /* AppDelegate.swift in Sources */,
 				7956E4AA254893E900EB57EC /* SceneDelegate.swift in Sources */,
+				798B3E3D2549F2310092D2F2 /* String+Helpers.swift in Sources */,
+				798B3E3A2549F2100092D2F2 /* Constants.swift in Sources */,
+				79C661FF254A26E4000456E5 /* TextField.swift in Sources */,
+				798B3E31254896A30092D2F2 /* CALayer+Helpers.swift in Sources */,
+				798B3E372549F1B70092D2F2 /* Int+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7956E4AD254893E900EB57EC /* Main.storyboard */ = {
+		7956E4AD254893E900EB57EC /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7956E4AE254893E900EB57EC /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		7956E4B2254893EA00EB57EC /* LaunchScreen.storyboard */ = {
@@ -283,11 +423,13 @@
 		};
 		7956E4B9254893EA00EB57EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C2AAF24F92D3986B73BDE6 /* Pods-QuoteQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QuoteQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,17 +437,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = za.kaka.QuoteQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7956E4BA254893EA00EB57EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847AB4FE76A1E0DD3024913E /* Pods-QuoteQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QuoteQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = za.kaka.QuoteQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.2.1)
+  - BSKeyboardControls (2.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - BSKeyboardControls
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BSKeyboardControls
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  BSKeyboardControls: b701935e789961102e3f20063bba7185800a2d3f
+
+PODFILE CHECKSUM: 31f4ccf67dd3efffb355e1212363bc0c17f30223
+
+COCOAPODS: 1.9.3
