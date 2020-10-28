@@ -52,6 +52,12 @@ class LoginViewController: UIViewController {
         logoImageView.tintColor = .white
         logoImageView.image = #imageLiteral(resourceName: "musala-logo").withRenderingMode(.alwaysTemplate)
     }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        
+        gradientView.layer.sublayers?.first?.frame = CGRect(origin: .zero, size: size)
+        usernameTextField.setNeedsDisplay()
+    }
 }
 
 extension LoginViewController: UITextFieldDelegate {

@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mqu-hT-cwE" customClass="TextField" customModule="QuoteQuiz" customModuleProvider="target">
-                                        <rect key="frame" x="40" y="291.5" width="295" height="40"/>
+                                        <rect key="frame" x="40" y="264" width="295" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="yUt-DD-X1E"/>
                                         </constraints>
@@ -42,8 +42,8 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="obW-9m-L3O" firstAttribute="height" secondItem="Dva-Qi-FOR" secondAttribute="height" multiplier="0.35" id="Cwz-75-5Em"/>
-                                    <constraint firstItem="Mqu-hT-cwE" firstAttribute="centerY" secondItem="Dva-Qi-FOR" secondAttribute="centerY" id="FdE-6h-yiy"/>
                                     <constraint firstAttribute="trailing" secondItem="Mqu-hT-cwE" secondAttribute="trailing" constant="40" id="lnY-No-b0Y"/>
+                                    <constraint firstItem="Mqu-hT-cwE" firstAttribute="top" secondItem="obW-9m-L3O" secondAttribute="bottom" constant="30" id="oUM-aB-7eu"/>
                                     <constraint firstItem="obW-9m-L3O" firstAttribute="top" secondItem="Dva-Qi-FOR" secondAttribute="top" constant="16" id="rQC-BK-O2d"/>
                                     <constraint firstItem="Mqu-hT-cwE" firstAttribute="leading" secondItem="Dva-Qi-FOR" secondAttribute="leading" constant="40" id="tVV-PX-mwP"/>
                                     <constraint firstItem="obW-9m-L3O" firstAttribute="centerX" secondItem="Dva-Qi-FOR" secondAttribute="centerX" id="yJ1-w1-Pb1"/>

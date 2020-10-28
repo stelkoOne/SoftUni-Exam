@@ -12,6 +12,7 @@ class TextField: UITextField {
     // MARK: - Variables
     
     private var clearTextImage: UIImage?
+    private var bottomBorder: CALayer?
     
     
     // MARK: - Initializers
@@ -31,15 +32,22 @@ class TextField: UITextField {
     // MARK: - View Base Methods
     
     override func draw(_ rect: CGRect) {
-        let bottomBorder = CALayer()
-        bottomBorder.frame = CGRect(x: .zero,
-                                    y: frame.height - Constants.TextField.Border.height,
-                                    width: frame.width,
-                                    height: Constants.TextField.Border.height)
-        bottomBorder.borderColor = Constants.TextField.Border.color.cgColor
-        bottomBorder.borderWidth = Constants.TextField.Border.height
+        let borderFrame = CGRect(x: rect.origin.x,
+                                 y: rect.height - Constants.TextField.Border.height,
+                                 width: rect.width,
+                                 height: Constants.TextField.Border.height)
+
+        if bottomBorder != nil {
+            bottomBorder?.frame = borderFrame
+            return
+        }
         
-        layer.addSublayer(bottomBorder)
+        bottomBorder = CALayer()
+        bottomBorder?.frame = borderFrame
+        bottomBorder?.borderColor = Constants.TextField.Border.color.cgColor
+        bottomBorder?.borderWidth = Constants.TextField.Border.height
+        
+        layer.addSublayer(bottomBorder!)
         layer.masksToBounds = true
         
         super.draw(rect)
