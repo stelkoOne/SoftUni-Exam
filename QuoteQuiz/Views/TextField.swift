@@ -71,12 +71,10 @@ class TextField: UITextField {
         
         for view in subviews {
             if let clearButton = view as? UIButton, let clearImage = clearButton.image(for: .normal) {
-                if clearTextImage == nil {
-                    clearTextImage = clearImage.withRenderingMode(.alwaysTemplate)
-                    clearButton.tintColor = Constants.TextField.Border.color
-                    clearButton.setImage(clearTextImage, for: .normal)
-                    clearButton.setImage(clearTextImage, for: .highlighted)
-                }
+                clearTextImage = clearImage.withRenderingMode(.alwaysTemplate)
+                clearButton.tintColor = Constants.TextField.Border.color
+                clearButton.setImage(clearTextImage, for: .normal)
+                clearButton.setImage(clearTextImage, for: .highlighted)
             }
         }
     }

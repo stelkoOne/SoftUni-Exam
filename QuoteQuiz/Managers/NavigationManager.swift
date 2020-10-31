@@ -9,19 +9,20 @@ import UIKit
 
 final class NavigationManager {
     
+    // Can we count this as a "Use segue" :P
     static func openMainViewController() {
         guard let topMostViewController = UIApplication.shared.topMostViewController else {
             print("UIApplication failed to get top-most view controller. \(#function)")
             return
         }
         
-        guard let controllerToPresent = UIStoryboard.main.instantiateInitialViewController() else {
+        guard let tabBarController = UIStoryboard.main.instantiateInitialViewController() as? UITabBarController else {
             print("Failed to intantiate controller that we want to present.")
             return
         }
         
         DispatchQueue.main.async {
-            topMostViewController.present(controllerToPresent, animated: true, completion: nil)
+            topMostViewController.present(tabBarController, animated: true, completion: nil)
         }
     }
 }

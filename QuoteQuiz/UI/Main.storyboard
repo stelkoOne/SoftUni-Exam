@@ -36,17 +36,23 @@
             </objects>
             <point key="canvasLocation" x="-429" y="1194"/>
         </scene>
-        <!--View Controller-->
+        <!--More-->
         <scene sceneID="5B7-hM-nKZ">
             <objects>
-                <viewController id="v8c-m2-NV9" sceneMemberID="viewController">
+                <viewController id="v8c-m2-NV9" customClass="MoreViewContoller" customModule="QuoteQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8S4-5N-824">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="J7e-S7-YiS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="57g-Rj-beX"/>
+                    <navigationItem key="navigationItem" title="More" id="57g-Rj-beX">
+                        <barButtonItem key="leftBarButtonItem" title="Log out" id="anA-Ng-DrK">
+                            <connections>
+                                <action selector="logOut:" destination="v8c-m2-NV9" id="Rsa-ao-f40"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6Q-cu-DxZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -18,5 +18,4 @@ extension UITextField {
     var isEmpty: Bool {
         safeText == ""
     }
-    
 }

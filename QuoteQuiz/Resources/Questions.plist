@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Answers</key>
+	<array>
+		<string>Greg Anderson</string>
+		<string>James Dean</string>
+		<string>Richard Bach</string>
+		<string>Charles Dickens</string>
+		<string>Carl Jung</string>
+		<string>Marcus Aurelius</string>
+		<string>Albert Clarke</string>
+		<string>Dr. Seuss</string>
+		<string>Elbert Hubbard</string>
+		<string>Paulo Coelho</string>
+		<string>Harper Lee</string>
+		<string>Stephen King</string>
+		<string>André Gide</string>
+		<string>Anthony de Mello</string>
+		<string>Seneca</string>
+		<string>Epictetus</string>
+		<string>Marcus Tullius Cicero</string>
+		<string>Robert Frost</string>
+		<string>Friedrich Nietzsche</string>
+		<string>Sylvia Plath</string>
+		<string>Alfred Hitchcock</string>
+		<string>Charles de Gaulle</string>
+		<string>Leo Tolstoy</string>
+		<string>Ludwig Beethoven</string>
+		<string>George Orwell</string>
+		<string>John Lennon</string>
+		<string>Muhammad Ali</string>
+		<string>Rick Riordan</string>
+		<string>Thomas Merton</string>
+		<string>Vladimir Lenin</string>
+		<string>Aristotle</string>
+		<string>Marcel Proust</string>
+		<string>Kurt Vonnegut</string>
+		<string>Woody Allen</string>
+		<string>Mark Caine</string>
+		<string>Audre Lorde</string>
+		<string>John F. Kennedy</string>
+		<string>Thomas J. Watson</string>
+		<string>Elie Wiesel</string>
+		<string>Harriet Tubman</string>
+		<string>Sigmund Freud</string>
+		<string>Ralph Waldo Emerson</string>
+		<string>Jonathan Swift</string>
+		<string>Jason Mraz</string>
+		<string>Denzel Washington</string>
+		<string>Ingrid Bergman</string>
+		<string>Oscar Wilde</string>
+		<string>Ernest Hemingway</string>
+		<string>Malcolm Forbes</string>
+		<string>Michael Jordan</string>
+		<string>Neil Armstrong</string>
+		<string>Oprah Winfrey</string>
+		<string>Arianna Huffington</string>
+		<string>Martin Luther King Jr.</string>
+		<string>William Shakespeare</string>
+		<string>Marilyn Monroe</string>
+		<string>Mark Twain</string>
+		<string>Lao Tzu</string>
+		<string>Gandhi</string>
+		<string>Oscar Wilde</string>
+		<string>Antoine de Saint-Exupéry</string>
+		<string>Mark Twain</string>
+		<string>Eleanor Roosevelt</string>
+		<string>Leo Tolstoy</string>
+		<string>J. K. Rowling</string>
+		<string>Steve Jobs</string>
+		<string>Henry Ford</string>
+		<string>Frank Sinatra</string>
+	</array>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>body</key>
+			<string>&quot;When you cease to dream you cease to live.&quot;</string>
+			<key>answer</key>
+			<string>Malcolm Forbes</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;You must expect great things of yourself before you can do them.&quot;</string>
+			<key>answer</key>
+			<string>Michael Jordan</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;I believe every human has a finite number of heartbeats. I don&apos;t intend to waste any of mine.&quot;</string>
+			<key>answer</key>
+			<string>Neil Armstrong</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;The more you praise and celebrate your life, the more there is in life to celebrate.&quot;</string>
+			<key>answer</key>
+			<string>Oprah Winfrey</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;But you have to do what you dream of doing even while you&apos;re afraid.&quot;</string>
+			<key>answer</key>
+			<string>Arianna Huffington</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.&quot;</string>
+			<key>answer</key>
+			<string>Martin Luther King Jr.</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;Love all, trust a few, do wrong to none.&quot;</string>
+			<key>answer</key>
+			<string>William Shakespeare</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;If you can make a woman laugh, you can make her do anything.&quot;</string>
+			<key>answer</key>
+			<string>Marilyn Monroe</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;Good friends, good books, and a sleepy conscience: this is the ideal life.&quot;</string>
+			<key>answer</key>
+			<string>Mark Twain</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;A good traveler has no fixed plans and is not intent on arriving.&quot;</string>
+			<key>answer</key>
+			<string>Lao Tzu</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;You must be the change you wish to see in the world.&quot;</string>
+			<key>answer</key>
+			<string>Gandhi</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;Always forgive your enemies; nothing annoys them so much.&quot;</string>
+			<key>answer</key>
+			<string>Oscar Wilde</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.&quot;</string>
+			<key>answer</key>
+			<string>Antoine de Saint-Exupéry</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do.&quot;</string>
+			<key>answer</key>
+			<string>Mark Twain</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;Great minds discuss ideas; average minds discuss events; small minds discuss people.&quot;</string>
+			<key>answer</key>
+			<string>Eleanor Roosevelt</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;If you want to be happy, be.&quot;</string>
+			<key>answer</key>
+			<string>Leo Tolstoy</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;It is our choices, that show what we truly are, far more than our abilities.&quot;</string>
+			<key>answer</key>
+			<string>J. K. Rowling</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.&quot;</string>
+			<key>answer</key>
+			<string>Steve Jobs</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;The whole secret of a successful life is to find out what is one’s destiny to do, and then do it.&quot;</string>
+			<key>answer</key>
+			<string>Henry Ford</string>
+		</dict>
+		<dict>
+			<key>body</key>
+			<string>&quot;The big lesson in life, baby, is never be scared of anyone or anything.&quot;</string>
+			<key>answer</key>
+			<string>Frank Sinatra</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,10 +7,12 @@
 
 import UIKit
 
-class QuizViewController: UIViewController {
+class QuizViewController: TabViewController {
+    
+    // MARK: - Actions
     
     @IBAction private func removeController() {
-        dismiss(animated: true, completion: nil)
+        
     }
     
     @IBAction private func addController() {
