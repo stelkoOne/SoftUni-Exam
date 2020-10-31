@@ -18,6 +18,17 @@
 		798B3E372549F1B70092D2F2 /* Int+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B3E362549F1B70092D2F2 /* Int+Helpers.swift */; };
 		798B3E3A2549F2100092D2F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B3E392549F2100092D2F2 /* Constants.swift */; };
 		798B3E3D2549F2310092D2F2 /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B3E3C2549F2310092D2F2 /* String+Helpers.swift */; };
+		79A08505254CA58E008FCD3D /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A08504254CA58E008FCD3D /* UIView+Helpers.swift */; };
+		79A08508254CAA7A008FCD3D /* UITextField+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A08507254CAA7A008FCD3D /* UITextField+Helpers.swift */; };
+		79A0850B254CAB1A008FCD3D /* UIAlertController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0850A254CAB1A008FCD3D /* UIAlertController+Helpers.swift */; };
+		79A0851D254CBD05008FCD3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A0851C254CBD05008FCD3D /* Main.storyboard */; };
+		79A08520254CBFC6008FCD3D /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0851F254CBFC6008FCD3D /* ThemeManager.swift */; };
+		79A08523254CC6ED008FCD3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79A08522254CC6ED008FCD3D /* GoogleService-Info.plist */; };
+		79A08526254CD26B008FCD3D /* UIStoryboard+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A08525254CD26B008FCD3D /* UIStoryboard+Helpers.swift */; };
+		79A08529254CD92D008FCD3D /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A08528254CD92D008FCD3D /* NavigationManager.swift */; };
+		79A0852C254CD95F008FCD3D /* UIViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0852B254CD95F008FCD3D /* UIViewController+Helpers.swift */; };
+		79A0852F254CD99F008FCD3D /* UIApplication+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0852E254CD99F008FCD3D /* UIApplication+Helpers.swift */; };
+		79A08533254CDED6008FCD3D /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A08532254CDED6008FCD3D /* QuizViewController.swift */; };
 		79C661FF254A26E4000456E5 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C661FE254A26E4000456E5 /* TextField.swift */; };
 		B46CE166879CB508D88DC02D /* Pods_QuoteQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8AE610868DCC621ED0B35 /* Pods_QuoteQuiz.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +48,17 @@
 		798B3E362549F1B70092D2F2 /* Int+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Helpers.swift"; sourceTree = "<group>"; };
 		798B3E392549F2100092D2F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		798B3E3C2549F2310092D2F2 /* String+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
+		79A08504254CA58E008FCD3D /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
+		79A08507254CAA7A008FCD3D /* UITextField+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Helpers.swift"; sourceTree = "<group>"; };
+		79A0850A254CAB1A008FCD3D /* UIAlertController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Helpers.swift"; sourceTree = "<group>"; };
+		79A0851C254CBD05008FCD3D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		79A0851F254CBFC6008FCD3D /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		79A08522254CC6ED008FCD3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79A08525254CD26B008FCD3D /* UIStoryboard+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Helpers.swift"; sourceTree = "<group>"; };
+		79A08528254CD92D008FCD3D /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		79A0852B254CD95F008FCD3D /* UIViewController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helpers.swift"; sourceTree = "<group>"; };
+		79A0852E254CD99F008FCD3D /* UIApplication+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Helpers.swift"; sourceTree = "<group>"; };
+		79A08532254CDED6008FCD3D /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		79C661FE254A26E4000456E5 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		847AB4FE76A1E0DD3024913E /* Pods-QuoteQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuoteQuiz.release.xcconfig"; path = "Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz.release.xcconfig"; sourceTree = "<group>"; };
 		A6C2AAF24F92D3986B73BDE6 /* Pods-QuoteQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuoteQuiz.debug.xcconfig"; path = "Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +104,7 @@
 				798B3E23254894F40092D2F2 /* Managers */,
 				798B3E212548949C0092D2F2 /* UI */,
 				7956E4B0254893EA00EB57EC /* Assets.xcassets */,
+				79A08522254CC6ED008FCD3D /* GoogleService-Info.plist */,
 				7956E4B5254893EA00EB57EC /* Info.plist */,
 			);
 			path = QuoteQuiz;
@@ -101,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				7956E4AD254893E900EB57EC /* Login.storyboard */,
+				79A0851C254CBD05008FCD3D /* Main.storyboard */,
 				7956E4B2254893EA00EB57EC /* LaunchScreen.storyboard */,
 			);
 			path = UI;
@@ -110,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				7956E4AB254893E900EB57EC /* LoginViewController.swift */,
+				79A08532254CDED6008FCD3D /* QuizViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -117,6 +142,8 @@
 		798B3E23254894F40092D2F2 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				79A0851F254CBFC6008FCD3D /* ThemeManager.swift */,
+				79A08528254CD92D008FCD3D /* NavigationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -128,6 +155,12 @@
 				798B3E332549F1960092D2F2 /* UIColor+Helpers.swift */,
 				798B3E362549F1B70092D2F2 /* Int+Helpers.swift */,
 				798B3E3C2549F2310092D2F2 /* String+Helpers.swift */,
+				79A08504254CA58E008FCD3D /* UIView+Helpers.swift */,
+				79A08507254CAA7A008FCD3D /* UITextField+Helpers.swift */,
+				79A0850A254CAB1A008FCD3D /* UIAlertController+Helpers.swift */,
+				79A08525254CD26B008FCD3D /* UIStoryboard+Helpers.swift */,
+				79A0852B254CD95F008FCD3D /* UIViewController+Helpers.swift */,
+				79A0852E254CD99F008FCD3D /* UIApplication+Helpers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -218,7 +251,9 @@
 			files = (
 				7956E4B4254893EA00EB57EC /* LaunchScreen.storyboard in Resources */,
 				7956E4B1254893EA00EB57EC /* Assets.xcassets in Resources */,
+				79A08523254CC6ED008FCD3D /* GoogleService-Info.plist in Resources */,
 				7956E4AF254893E900EB57EC /* Login.storyboard in Resources */,
+				79A0851D254CBD05008FCD3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +306,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A08505254CA58E008FCD3D /* UIView+Helpers.swift in Sources */,
 				7956E4AC254893E900EB57EC /* LoginViewController.swift in Sources */,
+				79A0850B254CAB1A008FCD3D /* UIAlertController+Helpers.swift in Sources */,
 				798B3E342549F1960092D2F2 /* UIColor+Helpers.swift in Sources */,
+				79A0852C254CD95F008FCD3D /* UIViewController+Helpers.swift in Sources */,
+				79A08526254CD26B008FCD3D /* UIStoryboard+Helpers.swift in Sources */,
 				7956E4A8254893E900EB57EC /* AppDelegate.swift in Sources */,
 				7956E4AA254893E900EB57EC /* SceneDelegate.swift in Sources */,
+				79A08520254CBFC6008FCD3D /* ThemeManager.swift in Sources */,
+				79A0852F254CD99F008FCD3D /* UIApplication+Helpers.swift in Sources */,
+				79A08508254CAA7A008FCD3D /* UITextField+Helpers.swift in Sources */,
 				798B3E3D2549F2310092D2F2 /* String+Helpers.swift in Sources */,
 				798B3E3A2549F2100092D2F2 /* Constants.swift in Sources */,
 				79C661FF254A26E4000456E5 /* TextField.swift in Sources */,
 				798B3E31254896A30092D2F2 /* CALayer+Helpers.swift in Sources */,
+				79A08533254CDED6008FCD3D /* QuizViewController.swift in Sources */,
 				798B3E372549F1B70092D2F2 /* Int+Helpers.swift in Sources */,
+				79A08529254CD92D008FCD3D /* NavigationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,11 +9,29 @@ import UIKit
 
 struct Constants {
     
+    static let appName: String = "QuoteQuiz"
+    
+    struct NavigationBar {
+        
+        enum Style {
+            case login
+            case `default`
+            
+            var isDefault: Bool {
+                self == .default
+            }
+        }
+        
+        static let font: UIFont = .systemFont(ofSize: 17.0, weight: .semibold)
+        static let fontColor: UIColor = .white
+    }
+    
     struct TextField {
         static let font: UIFont = .systemFont(ofSize: 16.5)
         
         struct Placeholder {
             static let color: UIColor = UIColor.white.withAlphaComponent(0.45)
+            static let font: UIFont = .systemFont(ofSize: 14.0)
             
         }
         struct Border {
@@ -34,3 +52,6 @@ struct Colors {
 }
 
 
+struct Storyboards {
+    static let main: String = "Main"
+}

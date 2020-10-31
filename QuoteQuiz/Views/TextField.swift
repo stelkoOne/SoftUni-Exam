@@ -60,10 +60,10 @@ class TextField: UITextField {
         
         let attributes: [NSAttributedString.Key : Any] = [
             .foregroundColor : Constants.TextField.Placeholder.color,
-            .font            : Constants.TextField.font
+            .font            : Constants.TextField.Placeholder.font
         ]
         
-        placeholder.draw(in: rect, withAttributes: attributes)
+        placeholder.draw(in: rect.insetBy(dx: 4.0, dy: .zero), withAttributes: attributes)
     }
     
     override func layoutSubviews() {
