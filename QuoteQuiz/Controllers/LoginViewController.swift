@@ -102,6 +102,11 @@ class LoginViewController: UIViewController {
             return
         }
         
+        if !emailTextField.safeText.isValidEmail {
+            UIAlertController.showAlert(fromController: self, message: "Please enter valid e-mail address.")
+            return
+        }
+        
         goTo(screen: .password)
     }
     

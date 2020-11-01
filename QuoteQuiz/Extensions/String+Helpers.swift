@@ -52,4 +52,8 @@ extension String {
     var length: Int {
         count
     }
+    
+    var isValidEmail: Bool {
+        range(of: Regex.email, options: .regularExpression) != nil
+    }
 }
